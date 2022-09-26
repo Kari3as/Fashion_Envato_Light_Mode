@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero_section {
+     width: 100%;
+     height: 740px;
+     background-image: url("https://res.cloudinary.com/dzd9ps2w2/image/upload/q_auto:best/v1663096836/Fashion%20Envato/james-barr-zy5JTdcC0fE-unsplash_1_l7q7jc.jpg");
+     background-size: cover;
+     background-position: center;
+}
+
+.nav_link{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 26px;
+    padding-right: 92px;
+    padding-bottom: 26px;
+    
+}
+.nav_item{
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right:30px;
+    color:#A6A6A6;
+}
+.nav_link > :last-child{
+    margin-right: 0;
+}
+/*text relative to background check mr. innocent*/
+.hero_div{ 
+    width: 100%;
+    max-width: 467px;
+    margin-top: 110px;
+    margin-left:100px;
+    font-family: 'lato', sans-serif;
+    color: #404040;
+}
+.hero_head{
+    Font-size: 48px;
+    font-weight:700;
+    margin-bottom:24px;
+}
+.hero_bio{
+    Font-size: 16px;
+    font-weight:400px;
+    Line-height: 24px;
+    margin-bottom:32px;
+}
+.hero_btn{
+    Font-size: 18px;
+    font-weight:400px;
+    Line-height: 22px;
+    margin: 26px 62px;
+    background:transparent;
+    padding: 26px 62px;
+    margin:0
+}
+.hero_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right:100px;
+    margin-bottom: 55.59px;
+
+}
+.hero_icon_item + .hero_icon_item{
+    margin-top: 29.5px;
+
+}
+.about_me_sec{
+    width: 100%;
+    height: 709px;
+    display: flex;
+    
+    
+}
+.about_me_img{
+    width: 500px;
+    height: 636.78px;
+    padding-top: 69px;
+    padding-right: 20px;
+    padding-bottom: 3.22px;
+    padding-left: 100px;
+    flex-shrink: 0;
+}
+.about_me_wrap{
+    width: 715px;
+    height:536px;
+    margin-top: 86px;
+    font-family: 'lato', sans-serif;
+    color:#404040;
+
+}
+.about_me_head{
+    font-size: 32px;
+    font-weight: 700;
+    line-height:21px;
+    padding-bottom: 38px;
+}
+.about_me_bio{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.gallery_sec{
+    width: 100%;
+    height: 1342px;
+    color: #404040;
+}
+.gallery_head{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-family: "lato", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.gallery_brf{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px; 
+}
+.gallery_wrap{
+    width: 1241px;
+    height: 1072px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 99px;
+
+}
+.gallery_item{
+    width: 400px;
+    height: 516px;
+}
+.gallery_wrap > .gallery_item:nth-child(-n+3){
+    margin-bottom: 40px;
+}
+
+/* positioning of view all & arrow don't respond as intended check mr. innocent*/
+.gallery_btn_wrap{ 
+    display: flex;
+    justify-content: center;
+}
+.gallery_btn_wrap{
+    margin-top: 30px;
+}
+.gallery_btn{
+    width: 189px;
+    height: 74px;
+    
+}
+.gallery_view{
+    font-family: "lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 27px;
+    margin-right:18px;
+    margin-bottom: 26px;
+    margin-left: 42px;
+    color: #404040;
+}
+/* change cursor value doesn't respond: check mr. innocent*/
+.galery_arrow{
+    cursor:crosshair;
+}
+
+.clients_sec{
+    width: 100%;
+    height:283px;
+}
+
+.clients_head{
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    margin-bottom: 16px;
+    font-family: "lato", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px; 
+}
+
+.clients_brf{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px; 
+
+}
+
+.clients_wrap{
+    width: 1240px;
+    height: 123.9px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-right: 100px;
+    margin-left: 99px;
+}
+.contact_me_sec{
+    width: 100%;
+    height: 955px;
+    display: flex;
+    flex-direction: column;
+    color: #404040;
+}
+.contact_me_head{
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-family: "lato", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px; 
+}
+.contact_me_brf{
+    align-self: center;
+    margin-bottom: 24px;
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #404040;
+
+}
+.contact_me_wrap{
+    width: 1240.92px;
+    display: flex;
+    margin-left: 100px;
+}
+.contact_me_img{
+    width: 505px;
+    height: 636.78px;
+
+}
+.contact_me_flst{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-top: 38px;
+    margin-left: 125px;
+
+}
+
+/* why style doesn't work when i wrote #name #email #subject ; check mr. innocent*/
+
+#name {
+    width: 505px;
+    height: 60px;
+    margin-left: 42px;
+    margin-bottom: 40px;
+}
+#email{
+    width: 505px;
+    height: 60px;
+    margin-left: 42px;
+    margin-bottom: 40px;
+}
+/* at figme design margin left was 26px but it didn't align correctly so i just added by sight; check mr. innocent*/
+#subject {
+    width: 505px;
+    height: 60px;
+    margin-left: 31px;
+    margin-bottom: 40px; 
+}
+#message{
+    width: 505px;
+    height: 228px;
+    margin-left: 23px;
+    margin-bottom: 40px;  
+    
+}
+/* at figme design margin left was 105px but it didn't align correctly so i just added by sight;border color doesen't respon:) check mr. innocent*/
+#send_message{
+    width: 295px;
+    height: 60px;
+    margin-left: 83px;
+    background-color: transparent;
+    border-color: #f51111;
+
+    
+}
+.insta{
+    width: 24px;
+    height: 17.41px;
+}
+footer{
+    width: 100%;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 44px;
+
+}
+.copyright{
+    font-family: "lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:17px;
+    color: #404040; 
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.nav_footer{
+    width: 142px;
+    height: 24.04px;
+    margin: 0px auto;
+    /*margin-top: 13px;
+    margin-bottom: 35px;
+    align-items: center;*/ 
+}
+/* icons are not aligned on same line ; check mr. innocent*/
+.nav_footer_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
+}
+   /*margin-top: 13px;
+    margin-bottom: 35px;
+   
+}
+.nav_footer_item+.nav_footer_item{
+    margin-left: 35px;*/
+
