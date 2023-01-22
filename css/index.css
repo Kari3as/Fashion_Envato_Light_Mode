@@ -29,7 +29,6 @@
 .nav_link > :last-child{
     margin-right: 0;
 }
-/*text relative to background check mr. innocent*/
 .hero_div{ 
     width: 100%;
     max-width: 467px;
@@ -147,7 +146,7 @@
     margin-bottom: 40px;
 }
 
-/* positioning of view all & arrow don't respond as intended check mr. innocent*/
+
 .gallery_btn_wrap{ 
     display: flex;
     justify-content: center;
@@ -171,7 +170,7 @@
     margin-left: 42px;
     color: #404040;
 }
-/* change cursor value doesn't respond: check mr. innocent*/
+
 .galery_arrow{
     cursor:crosshair;
 }
@@ -257,7 +256,6 @@
 
 }
 
-/* why style doesn't work when i wrote #name #email #subject ; check mr. innocent*/
 
 #name {
     width: 505px;
@@ -271,7 +269,7 @@
     margin-left: 42px;
     margin-bottom: 40px;
 }
-/* at figme design margin left was 26px but it didn't align correctly so i just added by sight; check mr. innocent*/
+
 #subject {
     width: 505px;
     height: 60px;
@@ -285,7 +283,7 @@
     margin-bottom: 40px;  
     
 }
-/* at figme design margin left was 105px but it didn't align correctly so i just added by sight;border color doesen't respon:) check mr. innocent*/
+
 #send_message{
     width: 295px;
     height: 60px;
@@ -322,11 +320,9 @@ footer{
     width: 142px;
     height: 24.04px;
     margin: 0px auto;
-    /*margin-top: 13px;
-    margin-bottom: 35px;
-    align-items: center;*/ 
+   
 }
-/* icons are not aligned on same line ; check mr. innocent*/
+
 .nav_footer_list{
     display: flex;
     justify-content: space-between;
@@ -334,10 +330,4 @@ footer{
     list-style-type: none;
     
 }
-   /*margin-top: 13px;
-    margin-bottom: 35px;
-   
-}
-.nav_footer_item+.nav_footer_item{
-    margin-left: 35px;*/
 
